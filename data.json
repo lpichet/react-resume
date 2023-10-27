@@ -1,0 +1,57 @@
+{
+    "title": "Laurent PICHET resume",
+    "firstName": "Laurent",
+    "lastName": "PICHET",
+    "twitterUrl": "",
+    "facebookUrl": "",
+    "instagramUrl": "",
+    "githubUrl": "https://github.com/lpichet",
+    "avatarUrl": "images/IG-7441.jpg",
+    "jobTitle": "Lead Dev FullStack",
+    "resumeFileUrl": "resume.pdf",
+    "personnalDescription": "Hello! I’m Laurent PICHET. Curious and problem-solver, I am passionate about Web technologies, architecture and agility and clean code. Currently looking for new adventure ;)",
+    "age": "39",
+    "email": "lpichet@gmail.com",
+    "phoneNumber": "+336 87 16 48 24",
+    "location": "Paris, France",
+    "backendSkills": [
+        {
+            "name": "C#",
+            "level": "90",
+            "legend": "Advanced"            
+        },
+        {
+            "name": "Azure",
+            "level": "90"
+        },
+        {
+            "name": "SQL Server",
+            "level": "90"
+        }
+    ],
+    "frontendSkills": [
+        {
+            "name": "Typescript",
+            "level": "90",
+            "legend": "Advanced"            
+        },
+        {
+            "name": "React",
+            "level": "90"
+        },
+        {
+            "name": "Angular",
+            "level": "90"
+        }
+    ],
+    "experiences": [
+        {
+            "jobTitle":"Lead Dev FullStack",
+            "companyName":"Philips Capsule Technologies",
+            "startDate":"2018-01-01",
+            "endDate":"2020-01-01",
+            "shortDescription":"Lead Dev FullStack",
+            "description":"Lead Dev FullStack"
+        }
+    ]
+}
