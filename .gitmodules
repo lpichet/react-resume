@@ -1,6 +1,3 @@
-[submodule "data"]
-	path = react-resume/src/data
-	url = https://github.com/lpichet/react-resume-data.git
 [submodule "react-resume/src/data"]
 	path = react-resume/src/data
 	url = https://github.com/lpichet/react-resume-data.git
