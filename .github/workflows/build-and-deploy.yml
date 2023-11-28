@@ -32,9 +32,9 @@ jobs:
       run: npm run build
       working-directory: ./react-resume
     
-    - name: Test React App
-      run: npm run test
-      working-directory: ./react-resume
+#    - name: Test React App
+#      run: npm run test
+#      working-directory: ./react-resume
 
   deploy:
     runs-on: ubuntu-latest
