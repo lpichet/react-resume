@@ -9,12 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-  
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
@@ -28,8 +22,11 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
-        
+        node-version: 16.x
+
+    - name: Change Directory to React App
+      run: cd react-app
+      
     - name: Install Dependencies
       run: npm ci
 
