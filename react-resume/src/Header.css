@@ -1,0 +1,17 @@
+.nav-link {
+    padding: 0;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 0, 0.5); }
+  
+  .nav-link:hover,
+  .nav-link:focus,
+  .active .nav-link {
+    color: rgba(0, 0, 0, 0.8); }
+  
+  .nav-item + .nav-item {
+    margin-left: 1rem; }
+
+    .flag {
+      width: 2rem;
+    }
