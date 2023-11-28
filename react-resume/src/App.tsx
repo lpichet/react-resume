@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import "./App.css";
 import Header from "./Header";
 import Footer from "./Footer";
-import generatePDF, { usePDF } from "react-to-pdf";
+import { usePDF } from "react-to-pdf";
 import { useTranslation } from "react-i18next";
 
 type ExperiencesExpanded = {
