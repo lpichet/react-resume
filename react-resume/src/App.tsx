@@ -7,6 +7,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { usePDF } from "react-to-pdf";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 type ExperiencesExpanded = {
   [key: number]: boolean;
@@ -48,6 +49,9 @@ function App() {
 
   return (
     <>
+    <Helmet>
+      <title>{data.firstName} {data.lastName}</title>
+    </Helmet>
       {!isPrintMode && (
         <Header
           firstName={data.firstName}
