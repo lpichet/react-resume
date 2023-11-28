@@ -35,7 +35,7 @@ jobs:
     - name: Upload GitHub Pages artifact
       uses: actions/upload-pages-artifact@v2.0.0
       with:
-        path: dist/
+        path: ./react-resume/dist/
 
 #    - name: Test React App
 #      run: npm run test
