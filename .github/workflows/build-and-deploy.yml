@@ -24,6 +24,8 @@ jobs:
         git submodule init
         git config --global url."https://${{ secrets.SUBMODULE_TOKEN }}@github.com/".insteadOf "https://github.com/"
         git submodule update --recursive --remote
+      env:
+        ACTIONS_CACHE_DISABLE: true
         
     - name: Set up Node.js
       uses: actions/setup-node@v4.0.0
