@@ -37,6 +37,8 @@ jobs:
     - name: Build React App
       run: npm run build
       working-directory: ./react-resume
+      env:
+        VITE_FORM_ACTION: ${{ secrets.VITE_FORM_ACTION }}
     
     - name: Upload GitHub Pages artifact
       uses: actions/upload-pages-artifact@v2.0.0
