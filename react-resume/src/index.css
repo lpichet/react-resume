@@ -69,7 +69,8 @@ button:focus-visible {
 } */
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth; 
+  white-space: pre-line;}
 
 .site-title {
   font-size: 1.25rem;

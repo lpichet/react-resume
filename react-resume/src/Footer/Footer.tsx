@@ -6,13 +6,20 @@ type FooterProps = {
     facebookUrl?: string;
     instagramUrl?: string;
     githubUrl?: string;
+    linkedinUrl?: string;
   };
 };
 
 function Footer({
   firstName,
   lastName,
-  socialMedias: { twitterUrl, facebookUrl, instagramUrl, githubUrl },
+  socialMedias: {
+    twitterUrl,
+    facebookUrl,
+    instagramUrl,
+    githubUrl,
+    linkedinUrl,
+  },
 }: FooterProps) {
   return (
     <footer className="pt-4 pb-4 text-muted text-center d-print-none">
@@ -37,6 +44,14 @@ function Footer({
                     <a className="nav-link" href={facebookUrl} title="Facebook">
                       <i className="fab fa-facebook"></i>
                       <span className="menu-title sr-only">Facebook</span>
+                    </a>
+                  </li>
+                )}
+                {linkedinUrl && (
+                  <li className="nav-item">
+                    <a className="nav-link" href={linkedinUrl} title="LinkedIn">
+                      <i className="fab fa-linkedin"></i>
+                      <span className="menu-title sr-only">LinkedIn</span>
                     </a>
                   </li>
                 )}

@@ -1,6 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import i18nfr from './i18n-fr.json';
+
 const resources = {
     en: {
         translation: {
@@ -12,18 +14,7 @@ const resources = {
         },
     },
     fr: {
-        translation: {
-            'Download CV': 'Télécharger CV',
-            'Hire Me': 'Me contacter',
-            'About Me': 'A propos de moi',
-            'Age': 'Âge',
-            'Email': 'Email',
-            'Phone': 'Téléphone',
-            'Location': 'Localisation',
-            'Professional Skills': 'Compétences Professionnelles',
-            'Work Experience': 'Expériences Professionnelles',
-            'Education': 'Education',
-        },
+        translation: i18nfr
     },
     };
 

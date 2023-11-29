@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Header.css";
-import flagUK from "./assets/icons8-grande-bretagne-48.png";
-import flagFR from "./assets/icons8-la-france-48.png";
+import flagUK from "../assets/icons8-grande-bretagne-48.png";
+import flagFR from "../assets/icons8-la-france-48.png";
 
 type HeaderProps = {
   firstName: string;
